@@ -1,43 +1,52 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
-
-.navbar-inverse{
-    height: 85px;
-    background-color:#725E73;
-    color: white;
-    border-bottom: solid;
-    border-color: grey;
-    border-radius: 20px;
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
 }
-.navbar-brand>img{
-    height: auto;
-    width: 25%;
+#navbar a {
+    background-color: none;
+}
+
+#navbar li {
     float: left;
-    padding-top: 0px;
+  text-align: center;
 }
-.dropdown a{
-    color: white;
+
+#navbar li a {
+  display: block;
+  color: #C222CA;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom:#C222CA;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+  background-color: white;
+  opacity: 0.5;
 }
 .jumbotron{
-    background-image: url('bg.jpg');
-    background-color: black;
+    margin-top: 250px;
+}
+body{
+    background-position: middle;
+    background-image: url('champ.jpg');
     background-repeat: no-repeat;
-    height: 500px;
-    border-radius: 50px;
-    border: solid;
-    border-color:#725E73;
+    
+}
+.container{
+    margin-top: 150px;
+    text-align: center;
 }
 
-.jumbotron h1{
-    color: white;
-    padding: 1000px;
-}
-.jumbotron p{
-    color: white;
-    text-align: justify;
-    padding-left: 1000px;
-    padding-top: 200px;
-    padding-right: 20px;
+.style{
+    text-align: center;
 }
