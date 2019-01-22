@@ -14,18 +14,19 @@
 
 #navbar li {
     float: left;
-  text-align: center;
+    text-align: center;
 }
 
 #navbar li a {
   display: block;
   color: #C222CA;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   border-bottom:#C222CA;
+  text-shadow: 0 0 15px green;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -35,6 +36,7 @@
 }
 .jumbotron{
     margin-top: 250px;
+    background-image: linear-gradient(white,#E684E7);
 }
 body{
     background-position: middle;
@@ -49,4 +51,27 @@ body{
 
 .style{
     text-align: center;
+}
+footer h1{
+    text-align: center;
+    font-size: 13px;
+    word-spacing: 10px;
+}
+footer{
+   
+    border-top: 1px solid #DFDFCF;
+    background-image: linear-gradient(white,#DD60FB);
+    opacity: 0.6;
+    padding-bottom: 20px;
+}
+
+.jumbotron img{
+    width: 200%;
+    height: auto;
+    text-align: left;
+    margin-left: 40px;
+    vertical-align: middle;
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
