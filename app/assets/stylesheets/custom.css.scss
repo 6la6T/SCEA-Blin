@@ -39,11 +39,6 @@
     background-image: linear-gradient(white,#E684E7);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.jumbotron2{
-    margin-top: 250px;
-    background-image: linear-gradient(white,#E684E7);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 body{
     background-position: middle;
     background-image: url('champ.jpg');
@@ -81,15 +76,19 @@ footer{
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.jumbotron2 img{
-    width: 100%;
+.style img{
+    width: 250%;
     height: auto;
-    text-align: left;
-    margin-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    vertical-align: middle;
-    border: 10px solid white;
+}
+.style2 img{
+    width: 75%;
+    height: auto;
+}
+.style3 img{
+    width: 25%;
+    height: auto;
+    border: 2px solid #DD60FB;
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    text-align: center;
 }
