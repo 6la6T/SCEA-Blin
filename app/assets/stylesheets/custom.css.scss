@@ -37,7 +37,9 @@
 .jumbotron{
     margin-top: 250px;
     background-image: linear-gradient(white,#E684E7);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: 20px solid grey;
+    
+    
 }
 body{
     background-position: middle;
@@ -89,6 +91,29 @@ footer{
     height: auto;
     border: 2px solid #DD60FB;
     border-radius: 10px;
-   
     text-align: center;
 }
+.style4 img{
+    width: 90%;
+    height: auto;
+}
+.carousel-inner  .item  img{
+margin: auto;
+width: 100%;
+}
+.carousel .item {
+  height: 300px;
+}
+.container5{
+    margin-bottom: 80px;
+    margin-top: 40px;
+    border-top: 3px solid #DD60FB;
+    border-bottom: 3px solid #DD60FB;
+}
+#produit{
+    margin-top: -30px;
+    background-image: linear-gradient(#E684E7, white);
+    border-top: 20px solid grey;
+    
+}
+

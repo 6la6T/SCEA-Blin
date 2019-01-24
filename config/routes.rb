@@ -5,5 +5,6 @@ Rails.application.routes.draw do
     get 'distributeur', to: 'page#distributeur'
     get 'btob', to: 'page#btob'
     get 'entreprise', to: 'page#entreprise'
-    get 'contact', to: 'page#contact'
+    get 'contact', to: 'contacts#new'
+    resources "contacts", only: [:new, :create]
 end
